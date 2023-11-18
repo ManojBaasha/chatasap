@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import ChatSearchForm from "./components/ChatSearchForm";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          <ChatSearchForm />
+        </div>
       </header>
     </div>
   );
